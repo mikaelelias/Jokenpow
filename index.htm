@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <div class="options">
+            <button class="option-btn" onclick="playHuman('rock')">Rock</button>
+            <button class="option-btn" onclick="playHuman('paper')">Paper</button>
+            <button class="option-btn" onclick="playHuman('scissons')">Scissons</button>
+        </div>
+
+        <p class="result"></p>
+
+        <div class="results">
+            <p class="result-human">Sua Pontuação : <span id="human-score">0</span></p>
+            <p class="result-machine">Pontuação da Maquina : <span id="machine-score">0</span></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
