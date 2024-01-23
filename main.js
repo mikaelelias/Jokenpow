@@ -1,7 +1,7 @@
 const result = document.querySelector('.result');
 
-const humanScore = document.querySelector('.human-score') 
-const machineScore = document.querySelector('.machine-score')
+const humanScore = document.getElementById('human-score') 
+const machineScore = document.getElementById('machine-score')
 
 let humanScoreNumber = 0
 let machineScoreNumber = 0
