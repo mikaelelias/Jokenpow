@@ -5,17 +5,21 @@
 }
 
 body {
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-size: cover;
+    object-fit: cover;
 }
 
 .game-container {
     width: 500px;
     height: 300px;
-    background-color: rgb(38, 199, 199);
+    background-color: rgb(182, 179, 179);    
     display: flex;
+    opacity: 0.9;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -23,7 +27,7 @@ body {
 }
 
 .option-btn {
-    width: 120px;
+    width: 80px;
     height: 50px;
     border-radius: 10px;
     border: none;

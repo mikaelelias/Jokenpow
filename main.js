@@ -1,3 +1,10 @@
+
+
+/* PROXIMO PASSO É CRIAR OS CONTADORES E ADICIONAR VALORES EM CADA VARIAVEL E LISTAR OS PONTOS
+   DEPOIS DISSO COLOCAR O SOMATORIO MELHOR DE 3 E GERAR O VENCEDOR (VC GANHOU DINAMICO) (VC PERDEU DINAMICO)
+*/
+
+
 const result = document.querySelector('.result');
 
 const humanScore = document.getElementById('human-score') 
@@ -34,8 +41,6 @@ const playTheGame = (human, machine) => {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
         result.innerHTML = 'Você perdeu para a maquina';
-        scoreMachine++;
     }
-
-};
+}
 
